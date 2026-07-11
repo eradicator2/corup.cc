@@ -6,8 +6,9 @@ local Env = getgenv()
 
 Env.CrimFinder = {
     webhook_url = "", -- discord webhook
-    
-    search_copecoin = true,
+
+    search_x24 = true,
+    search_copecoin = false,
     search_corruptis = false,
     search_rpg7 = false,
     search_slayerkit = false,
@@ -51,7 +52,8 @@ local Kp5 = {
     search_frontman = "FrontMan",
     search_vestb3 = "VestB_3",
     search_publicairstrike = "PublicAirstrike",
-    search_publicprecisionstrike = "PublicPrecisionStrike"
+    search_publicprecisionstrike = "PublicPrecisionStrike",
+    search_x24 = "X24"
 }
 
 Env.CrimFinderState = Env.CrimFinderState or {
